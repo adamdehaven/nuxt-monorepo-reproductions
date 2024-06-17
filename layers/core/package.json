@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "nuxi dev .playground",
     "build": "nuxt build .playground",
+    "test": "vitest",
     "generate": "nuxt generate .playground",
     "preview": "nuxt preview .playground",
     "lint": "eslint .",
