@@ -6,7 +6,7 @@
 
 1. Clone this repo
 2. Install dependencies with `pnpm install`
-3. `pnpm -F core test` - run the tests contained in the `/layers/core/*` directory, utilizing the `/apps/app` Nuxt application.
+3. `pnpm -F core test` - run the tests contained in the `/layers/core/test/*` directory, utilizing the `/apps/app` Nuxt application.
 
 You should see the following error:
 
