@@ -1,0 +1,28 @@
+{
+  "name": "core",
+  "type": "module",
+  "version": "0.0.1",
+  "main": "./nuxt.config.ts",
+  "scripts": {
+    "dev": "nuxi dev .playground",
+    "build": "nuxt build .playground",
+    "generate": "nuxt generate .playground",
+    "preview": "nuxt preview .playground",
+    "lint": "eslint .",
+    "postinstall": "nuxt prepare .playground",
+    "prepare": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/eslint-config": "^0.1.1",
+    "@nuxt/test-utils": "^3.13.1",
+    "eslint": "^8.57.0",
+    "happy-dom": "^14.12.0",
+    "nuxt": "^3.12.2",
+    "playwright-core": "^1.44.1",
+    "typescript": "^4.9.5",
+    "vitest": "^1.6.0"
+  },
+  "dependencies": {
+    "@nuxtjs/mdc": "^0.6.1"
+  }
+}
