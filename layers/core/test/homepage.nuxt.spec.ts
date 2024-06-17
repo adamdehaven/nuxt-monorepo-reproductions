@@ -4,7 +4,6 @@ import { fileURLToPath } from 'node:url'
 
 describe('homepage', async () => {
   await setup({
-    server: true,
     rootDir: fileURLToPath(new URL('../../../apps/app', import.meta.url)),
   })
 
