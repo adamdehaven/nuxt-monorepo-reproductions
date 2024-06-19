@@ -8,7 +8,7 @@
 2. Install dependencies with `pnpm install`
 3. Open the `layers/core/components/HelloThere.vue` file and notice that the `$hello` helper provided by `layers/core/plugins/hello.ts` does not infer its type.
 
-In addition, manually declaring the types of the plugin _also does not work_ as [outlined by the docs](https://nuxt.com/docs/guide/directory-structure/plugins#typing-plugins) and shown below does not work without adding the additional interface shown at the bottom
+In addition, manually declaring the types of the plugin _also does not work_ as [outlined by the docs](https://nuxt.com/docs/guide/directory-structure/plugins#typing-plugins) and shown below does not work without adding the additional interface shown in the middle.
 
 ```typescript
 declare module '#app' {
